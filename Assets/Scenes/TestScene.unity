@@ -623,8 +623,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Play Scene\n\tMove Input: W,A,S,D\n\nUse\n\tCopy \"Materials\" and \"Shaders\"
-    Dictionary\n\tEntity Material use \"Materials/Sprite-Lit-Entity\"\n\tBackground
+  m_Text: "Play Scene\n\tMove Input: W,A,S,D\n\nUse\n\tSet the Blend Style property
+    of the Light 2D Component of the Player's Vision Light as the 4th item\n\tCopy
+    \"Materials\" and \"Shaders\" Dictionary\n\tEntity Material use \"Materials/Sprite-Lit-Entity\"\n\tBackground
     Material use \"Materials/Sprite-Lit-Background\"\n"
 --- !u!222 &1104752074
 CanvasRenderer:
@@ -953,7 +954,7 @@ GameObject:
   - component: {fileID: 1856151041}
   - component: {fileID: 1856151042}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Vision Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1003,7 +1004,7 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowsEnabled: 0
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
