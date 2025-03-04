@@ -1,4 +1,4 @@
-# Unity-2D-Darkwood-Vision-Effect
+# Unity 2D Field of View
 
 # Descriptions
 Because the png file of the original author cannot be opened and the Shader does not support Unity6. Therefore, based on the information provided by the original author, a simple version of unity6 support has been made.
